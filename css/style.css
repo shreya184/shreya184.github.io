@@ -649,7 +649,7 @@ a.reverse:hover {
     position: absolute;
     width:100%;
     height:100vh;
-    background-image: url(../img/IMG-0028.jpg);
+    background-image: url(../img/header-placeholder.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
