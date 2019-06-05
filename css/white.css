@@ -1502,7 +1502,7 @@ div.one_time.last_child{
         border: 5px solid;
     }
     .first_slide_img {
-        background-position: 50% 100%;
+        background-position: 85% 100%;
     }
     .bottom_form_container {
         min-height: 315px;
@@ -1553,7 +1553,7 @@ div.one_time.last_child{
         left: 15px;
         right: 15px;
         height: 2px;
-        background-color: #fff;
+        background-color: #444444;
     }
     .lm_active {
         width: 100%;
