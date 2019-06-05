@@ -178,7 +178,7 @@ p.mid a:hover {
 
 /* ACCENT COLORS */
 .logo_on_header {
-    color: white;
+    color: #444444;
 }
 .logo_on_body {
     color: #E45064;
@@ -469,7 +469,7 @@ a.reverse:hover {
     left: 32px;
     right: 32px;
     height: 2px;
-    background-color: #fff;
+    background-color: #444444;
 }
 .button span::before,
 .button span::after {
@@ -478,7 +478,7 @@ a.reverse:hover {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #444444;
     content: "";
 }
 .negative .button span, .negative .button span::before, .negative .button span::after {
@@ -649,10 +649,11 @@ a.reverse:hover {
     position: absolute;
     width:100%;
     height:100vh;
-    background-image: url(../img/header-placeholder.png);
+    background-image: url(../img/hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-position: center;
 }
 .fsi_helper {
     transform:scale(1.5);
@@ -698,7 +699,7 @@ a.reverse:hover {
 .content_block .text_block{
     font-weight: 300;
     padding-left: 40px; 
-    color:#fff;
+    color:#444444;
     font-size: 45px;
     line-height: 50px;
 }
@@ -861,7 +862,7 @@ a.reverse:hover {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #444444;
     content: "";
 }
 .button-bottom span::before {
@@ -1575,7 +1576,7 @@ div.one_time.last_child{
     .name {
         z-index: 10;
         font-family: "Raleway";
-        font-weight: 200;
+        font-weight: 600;
         position: fixed;
         top: 0;
         left: 50px;
