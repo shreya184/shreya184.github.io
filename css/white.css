@@ -215,7 +215,7 @@ a.reverse:hover {
 #contacts .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
-	/* color: #fff; */
+	color: #E45064;
 	transition: all 0.5s;
 }
 #contacts .social i.fa:hover {
