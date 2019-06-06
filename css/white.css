@@ -169,7 +169,7 @@ p.mid a:hover {
     color: #8B8B8B !important;
 }
 .color_on_accent {
-    color: white !important;
+    color: #444444 !important;
 }
 .border_color {
     border-color: #8B8B8B !important;
@@ -452,7 +452,7 @@ a.reverse:hover {
     line-height: 1.6;
 }
 .left_menu .menu a{
-    color:#fff;
+    color:#444444;
     text-decoration: none;
 }
 .menu a:hover {
@@ -485,7 +485,7 @@ a.reverse:hover {
     background-color: #fff;
 }
 .button.b_active span, .button.b_active span::before, .button.b_active span::after {
-    background-color: #fff;
+    background-color: #444444;
 }
 .button span::before {
     top: -10px;
