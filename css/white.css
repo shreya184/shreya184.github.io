@@ -141,7 +141,7 @@ p.huge {
 /* LINKS STYLES*/
 a {
     cursor: pointer;
-    color: white;
+    /* color: white; */
 }
 p.huge a {
     border-bottom-style: solid;
