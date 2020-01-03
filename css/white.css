@@ -1078,8 +1078,7 @@ div.one_time.last_child{
     will-change: transform;
     transition-delay: 0s;
     color:#ffffff !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
+    font-size: 13px !important;
 }
 .project:hover .project_dsc {
     transition-delay: 0.3s;
