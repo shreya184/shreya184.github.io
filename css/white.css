@@ -1053,7 +1053,7 @@ div.one_time.last_child{
 .project_title {
     z-index: 4;
     opacity: 0;
-    color: rgba(255,255,255,0.7)!important;
+    color:#ffffff !important;
     margin: 0 0 5px;
     transition: 0.4s cubic-bezier(.25, .1, .25, 1);
     -webkit-transform: translateY(100%);
