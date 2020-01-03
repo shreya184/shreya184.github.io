@@ -1061,6 +1061,8 @@ div.one_time.last_child{
     transform: translateY(100%);
     will-change: transform;
     transition-delay: 0s;
+    font-size: 16px;
+    font-weight: 500;
 }
 .project:hover .project_title {
     transition-delay: 0.2s;
