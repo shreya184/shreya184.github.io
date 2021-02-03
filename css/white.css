@@ -61,6 +61,8 @@ body{
 .name:before{
     content:"Shreya \A Naik";
     white-space: pre;
+    font-size: 24px;
+    font-weight: 500;
 }
 .n_active{
     left:390px;
@@ -101,18 +103,18 @@ h5{
 
 /* PARAGRAPH STYLES */
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
     margin-bottom: 16px;
     margin-top: 0px;
-    color: #8B8B8B;
+    color: #6e6e6e;
 }
 p.small_text,
 .progressbar-text {
     font-size: 13px;
     line-height: 22px;
     margin-bottom: 13px;
-    color: #8B8B8B;
+    color: #6e6e6e;
 }
 p.big {
     font-size: 24px;
@@ -169,7 +171,7 @@ p.mid a:hover {
     color: #8B8B8B !important;
 }
 .color_on_accent {
-    color: #444444 !important;
+    color: #ffffff !important;
 }
 .border_color {
     border-color: #8B8B8B !important;
@@ -181,28 +183,28 @@ p.mid a:hover {
     color: #444444;
 }
 .logo_on_body {
-    color: #E45064;
+    color: #005B85;
 }
 .accent_color_text {
-    color: #E45064 !important;
+    color: #005B85 !important;
 }
 a:visited {
-    color: #E45064;
+    color: #005B85;
 }
 .accent_color_background {
-    background-color: #E45064 !important;
+    background-color: #005B85 !important;
 }
 .accent_color_overlay {
-    background-color: rgba(73, 0, 10, 0.75) !important;
+    background-color: rgba(0, 91, 193, 0.75) !important;
 }
 .accent_border_color{
-    border-color: #E45064 !important;
+    border-color: #005B85 !important;
 }
 a.reverse:hover {
-    color: #E45064 !important;
+    color: #005B85 !important;
 }
 .accent_outline_color {
-    outline-color: #E45064;
+    outline-color: #005B85;
 }
 
 #contacts .social {
@@ -215,7 +217,7 @@ a.reverse:hover {
 #contacts .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
-	color: #E45064;
+	color: #005B85;
 	transition: all 0.5s;
 }
 #contacts .social i.fa:hover {
@@ -452,7 +454,7 @@ a.reverse:hover {
     line-height: 1.6;
 }
 .left_menu .menu a{
-    color:#444444;
+    color:#ffffff;
     text-decoration: none;
 }
 .menu a:hover {
@@ -469,7 +471,7 @@ a.reverse:hover {
     left: 32px;
     right: 32px;
     height: 2px;
-    background-color: #444444;
+    background-color: #ffffff;
 }
 .button span::before,
 .button span::after {
@@ -478,14 +480,14 @@ a.reverse:hover {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #444444;
+    background-color: #ffffff;
     content: "";
 }
 .negative .button span, .negative .button span::before, .negative .button span::after {
     background-color: #fff;
 }
 .button.b_active span, .button.b_active span::before, .button.b_active span::after {
-    background-color: #444444;
+    background-color: #ffffff;
 }
 .button span::before {
     top: -10px;
@@ -627,9 +629,7 @@ a.reverse:hover {
     position:absolute;
 }
 .container{
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 80px;
+   margin: 0 auto;
 }
 /* FIRST SLIDER STYLES */
 #first_slide{
@@ -698,7 +698,6 @@ a.reverse:hover {
 }
 .content_block .text_block{
     font-weight: 300;
-    padding-left: 40px; 
     color:#444444;
     font-size: 45px;
     line-height: 50px;
@@ -1492,7 +1491,6 @@ div.one_time.last_child{
     }
     .content_block .text_block {
         font-weight: 300;
-        padding-left: 40px;
         color: #fff;
         font-size: 20px;
         line-height: 20px;
