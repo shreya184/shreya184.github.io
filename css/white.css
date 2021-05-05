@@ -1053,7 +1053,7 @@ div.one_time.last_child{
 .project_title {
     z-index: 4;
     opacity: 0;
-    color: rgba(255,255,255,0.7);
+    color:#ffffff !important;
     margin: 0 0 5px;
     transition: 0.4s cubic-bezier(.25, .1, .25, 1);
     -webkit-transform: translateY(100%);
@@ -1061,6 +1061,8 @@ div.one_time.last_child{
     transform: translateY(100%);
     will-change: transform;
     transition-delay: 0s;
+    font-size: 16px !important;
+    font-weight: 500 !important;
 }
 .project:hover .project_title {
     transition-delay: 0.2s;
@@ -1075,6 +1077,8 @@ div.one_time.last_child{
     transform: translateY(100%);
     will-change: transform;
     transition-delay: 0s;
+    color:#ffffff !important;
+    font-size: 13px !important;
 }
 .project:hover .project_dsc {
     transition-delay: 0.3s;
