@@ -61,6 +61,8 @@ body{
 .name:before{
     content:"Shreya \A Naik";
     white-space: pre;
+    font-weight: 600;
+    font-size: 24px;
 }
 .n_active{
     left:390px;
@@ -181,13 +183,13 @@ p.mid a:hover {
     color: white;
 }
 .logo_on_body {
-    color: #E45064;
+    color: #005B85;
 }
 .accent_color_text {
-    color: #E45064 !important;
+    color: #005B85 !important;
 }
 a:visited {
-    color: #E45064;
+    color: #005B85;
 }
 .accent_color_background {
     background-color: #E45064 !important;
@@ -196,13 +198,13 @@ a:visited {
     background-color: rgba(73, 0, 10, 0.75) !important;
 }
 .accent_border_color{
-    border-color: #E45064 !important;
+    border-color: #005B85 !important;
 }
 a.reverse:hover {
-    color: #E45064 !important;
+    color: #005B85 !important;
 }
 .accent_outline_color {
-    outline-color: #E45064;
+    outline-color: #005B85;
 }
 
 #contacts .social {
